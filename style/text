@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+  overflow:none;
+}
+.background_chat {
+  background-color: white;
+  height: 100vh;
+  overflow: hidden;
+  width: 350px;
+}
+.background_chat2 {
+  background-color:#690909;
+  overflow:hidden;
+  /* height: 50%; */
+  width: 71%;
+}
+.box_chat{
+  overflow: hidden;
+}
+.line_1 {
+  position: absolute;
+  width: 22px;
+  height: 3.3px;
+  left: 298px;
+  top: 51px;
+
+  background: #7e98df;
+  border-radius: 20px;
+}
+.line_2 {
+  position: absolute;
+  width: 13.2px;
+  height: 3.3px;
+  left: 298px;
+  top: 58.7px;
+
+  background: #7e98df;
+  border-radius: 20px;
+}
+.line_3 {
+  position: absolute;
+  width: 22px;
+  height: 3.3px;
+  left: 298px;
+  top: 66.4px;
+
+  background: #7e98df;
+  border-radius: 20px;
+}
+.line_4 {
+  position: absolute;
+  width: 3px;
+  height: 23px;
+  left: 300px;
+  top: 156px;
+
+  background: #7e98df;
+  border-radius: 10px;
+  transform: rotate(90deg);
+}
+.line_5 {
+  position: absolute;
+  width: 3px;
+  height: 23px;
+  left: 300px;
+  top: 157px;
+
+  background: #7e98df;
+  border-radius: 10px;
+}
+.search_1{
+position: absolute;
+width: 22.31px;
+height: 22.31px;
+left: 50px;
+top: 155px;
+}
+.list_chat {
+  position: absolute;
+  width: 293px;
+  height: 62px;
+  left: 30px;
+  top: 280px;
+}
+/* .list_chat2 {
+  position: absolute;
+  width: 293px;
+  height: 62px;
+  left: 30px;
+  top: 360px;
+}
+.list_chat3 {
+  position: absolute;
+  width: 293px;
+  height: 62px;
+  left: 30px;
+  top: 440px;
+}
+.list_chat4 {
+  position: absolute;
+  width: 293px;
+  height: 62px;
+  left: 30px;
+  top: 510px;
+}
+.list_chat5 {
+  position: absolute;
+  width: 293px;
+  height: 62px;
+  left: 30px;
+  top: 590px;
+}
+.list_chat6 {
+  position: absolute;
+  width: 293px;
+  height: 62px;
+  left: 30px;
+  top: 670px;
+}
+.list_chat7 {
+  position: absolute;
+  width: 293px;
+  height: 62px;
+  left: 30px;
+  top: 750px;
+}
+.list_chat8 {
+  position: absolute;
+  width: 293px;
+  height: 62px;
+  left: 30px;
+  top: 830px;
+} */
+.grid{
+position: absolute;
+width: 214px;
+height: 50px;
+left: 80px;
+top: -7px;
+font-weight: 500;
+}
+.font_width{
+  font-weight: bold;
+  margin-top: 10px;
+}
+.font_chat{
+font-family: Rubik;
+font-style: normal;
+font-weight:inherit;
+font-size: 13.57px;
+line-height: 17px;
+margin-top: 35px;
+margin-left: -235px;
+text-align: center;
+letter-spacing: -0.165px;
+
+color: #7E98DF;
+}
+.img_new{
+position: absolute;
+width: 15.87px;
+height: 14px;
+left: 130px;
+top: 15px;
+
+}
+.clock{
+  position: absolute;
+width: 30px;
+height: 12px;
+left: 180px;
+top: 15px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+letter-spacing: -0.165px;
+color: #848484;
+}
+.img_new2{
+position: absolute;
+width: 17px;
+height: 17px;
+left: 190px;
+top: 37px;
+
+}
+.all {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  left: 30px;
+  top: 225px;
+  border: none;
+  outline: none;
+  background-color: none;
+  border-inline: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: -0.165px;
+
+  color: #232323;
+}
+.important {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  left: 90px;
+  top: 220px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.165px;
+  
+  color:white;
+}
+.color_important{
+width: 124px;
+height: 35px;
+background: #7E98DF;
+border-radius: 20px;
+}
+.unread {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  left: 240px;
+  top: 225px;
+  border: none;
+  outline: none;
+  background-color: none;
+  border-inline: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: -0.165px;
+
+  color: #232323;
+}
+.form-search {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  left: 30px;
+  top: 140px;
+  border: none;
+
+  background: #fafafa;
+  border-radius: 15px;
+}
+.h1_chat {
+  position: absolute;
+  width: 128px;
+  height: 34px;
+  left: 30px;
+  top: 43px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.165px;
+
+  color: #7e98df;
+}
